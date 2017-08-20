@@ -4,42 +4,80 @@
 <head>
     <meta charset="utf-8">
     <title>John Doe's portfolio page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 
+<div class="wrapper">
+
     <nav>
         <img src="img/logo.png" alt="Logo" />
-        <ul>
+        <ul class="navigation">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <h1>Hi, my name is <b>John Doe</b>. <i><span>I am a UX designer from Berlin!</span></i></h1>
 
-    <div>
-        <div>
-            <img src="img/work-preview.png" />
-            <p>Work Sample 1</p>
+        <h1>Hi, my name is <b>John Doe</b>. <i><span>I am a UX designer from Berlin!</span></i></h1>
+
+
+        <div class="columns-container">
+
+            <div class="column-4 project">
+                <div class="project-preview">
+                  <img src="img/work-preview.png" />
+                  <p>Work Sample 1</p>
+                </div>
+                <p class="project-details">
+                  This is a description of my work sample!
+                  It is a great piece of design.
+                </p>
+            </div>
+
+            <div class="column-4 project">
+                <div class="project-preview">
+                  <img src="img/work-preview.png" />
+                  <p>Work Sample 2</p>
+                </div>
+                <p class="project-details">
+                  This is a description of my work sample!
+                  It is a great piece of design.
+                </p>
+            </div>
+
+            <div class="column-4 project">
+                <div class="project-preview">
+                  <img src="img/work-preview.png" />
+                  <p>Work Sample 3</p>
+                </div>
+                <p class="project-details">
+                  This is a description of my work sample!
+                  It is a great piece of design.
+                </p>
+            </div>
+
+            <div class="column-4 project">
+                <div class="project-preview">
+                  <img src="img/work-preview.png" />
+                  <p>Work Sample 4</p>
+                </div>
+                <p class="project-details">
+                  This is a description of my work sample!
+                  It is a great piece of design.
+                </p>
+            </div>
+
         </div>
 
-        <div>
-            <img src="img/work-preview.png" />
-            <p>Work Sample 2</p>
-        </div>
+        <!--  <button class="button-secondary">Secondary button</button>-->
+</div>
 
-        <div>
-            <img src="img/work-preview.png" />
-            <p>Work Sample 3</p>
-        </div>
-        <div>
-            <img src="img/work-preview.png" />
-            <p>Work Sample 4</p>
-        </div>
-    </div>
 
-  </body>
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/scripts.js"></script>
+    </body>
 
 </html>
